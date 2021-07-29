@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 :root {
-  --blue: #3485e4;
-  --orange: #ff491c;
+  --blue: #2b90d9;
+  --orange: #222831;
 }
 
 * {
@@ -17,30 +17,13 @@
   transition: all 0.2s linear;
 }
 
-*::selection {
-  background: var(--blue);
-  color: #333;
-}
-
 html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
 
-html::-webkit-scrollbar {
-  width: 1.4rem;
-}
-
-html::-webkit-scrollbar-track {
-  background: #222;
-}
-
-html::-webkit-scrollbar-thumb {
-  background: var(--yellow);
-}
-
 body {
-  background: #0d101e;
+  background: #d9e1e8;
   overflow-x: hidden;
   padding-left: 35rem;
 }
@@ -75,11 +58,7 @@ section {
   font-size: 4rem;
   padding: 1rem;
   border-bottom: 0.1rem solid #393b47;
-  color: #fff;
-}
-
-.heading span {
-  color: var(--yellow);
+  color: #282c37;
 }
 
 /* Header */
@@ -91,7 +70,7 @@ header {
   z-index: 1000;
   height: 100%;
   width: 35rem;
-  background: #1a1a1a;
+  background: #9baec8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,12 +121,12 @@ header .navbar ul li a {
 
 header .follow a {
   font-size: 2.5rem;
-  color: var(--blue);
+  color: #282c37;
   margin-left: 0.5rem;
 }
 header .follow a:hover {
   font-size: 2.5rem;
-  color: var(--orange);
+  color: var(--blue);
 }
 
 header .navbar ul li a:hover {
@@ -178,12 +157,12 @@ header .navbar ul li a:hover {
 
 .home h3 {
   font-size: 8rem;
-  color: #fff;
+  color: #222831;
 }
 
 .home h1 {
   font-size: 5rem;
-  color: #fff;
+  color: #282c37;
 }
 
 .home h1 span {
@@ -192,7 +171,7 @@ header .navbar ul li a:hover {
 
 .home p {
   font-size: 2rem;
-  color: #eee;
+  color: #282c37;
   text-transform: none;
   padding: 1rem 0;
 }
@@ -223,7 +202,7 @@ header .navbar ul li a:hover {
   margin: 20px;
   border-radius: 10px 10px 10px 10px;
   background: #fff;
-  box-shadow: 5px 10px 20px #040f74;
+  box-shadow: 3px 3px 3px #282c37;
 }
 
 .projects .container .info {
@@ -446,12 +425,12 @@ header .navbar ul li a:hover {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: var(--primary-blue);
+  background: var(--blue);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .contact .button input[type='button']:hover {
-  background: var(--primary-orange);
+  background: var(--orange);
 }
 
 /* ///////////// */

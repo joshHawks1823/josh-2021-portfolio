@@ -156,6 +156,7 @@ header .navbar ul li a:hover {
 }
 .home a {
   width: 16.4rem;
+  padding: 1rem 3rem;
 }
 
 .home h3 {

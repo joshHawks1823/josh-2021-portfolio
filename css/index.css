@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 :root {
-  --blue: #2b90d9;
-  --orange: #222831;
+  --blue: conic-gradient(from 90deg at bottom right, cyan, rebeccapurple);
+  --orange: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
 }
 
 * {
@@ -84,7 +84,7 @@ header .user img {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
-  border: 0.7rem solid var(--orange);
+  border: 0.7rem solid #495057;
 }
 
 header .user .name {
@@ -92,7 +92,7 @@ header .user .name {
   color: #fff;
 }
 header .user .name span {
-  color: var(--blue);
+  color: #495057;
 }
 
 header .user .post {
@@ -137,7 +137,7 @@ header .navbar ul li a:hover {
   position: fixed;
   top: 2rem;
   right: 2rem;
-  background: var(--orange);
+  background: var(--blue);
   color: #fff;
   cursor: pointer;
   font-size: 2.5rem;
@@ -202,7 +202,7 @@ header .navbar ul li a:hover {
   margin: 20px;
   border-radius: 10px 10px 10px 10px;
   background: #fff;
-  box-shadow: 3px 3px 3px #282c37;
+  box-shadow: 1px 1px 1px #282c37;
 }
 
 .projects .container .info {

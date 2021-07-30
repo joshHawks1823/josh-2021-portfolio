@@ -154,6 +154,9 @@ header .navbar ul li a:hover {
   flex-flow: column;
   padding: 0 15rem;
 }
+.home a {
+  width: 16.4rem;
+}
 
 .home h3 {
   font-size: 8rem;

@@ -231,8 +231,8 @@ header .navbar ul li a:hover {
 }
 
 .projects .container .info .btns {
-  margin: 12px 0;
   text-align: center;
+  padding: 0 8px 12px 8px;
 }
 .projects .container .info .btns .btn {
   padding: 0.8rem 1.2rem;

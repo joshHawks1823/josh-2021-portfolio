@@ -178,6 +178,7 @@ header .navbar ul li a:hover {
   color: #282c37;
   text-transform: none;
   padding: 1rem 0;
+  line-height: 1.6;
 }
 
 /* //////////// */

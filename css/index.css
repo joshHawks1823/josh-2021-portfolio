@@ -198,7 +198,7 @@ header .navbar ul li a:hover {
   width: 280px;
   height: 250px;
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .projects .container .card {

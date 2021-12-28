@@ -195,19 +195,19 @@ header .navbar ul li a:hover {
 }
 
 .projects .container .pic {
-  width: 280px;
+  width: 300px;
   height: 250px;
   position: relative;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .projects .container .card {
   height: 500px;
-  width: 280px;
+  width: 300px;
   margin: 20px;
   border-radius: 10px 10px 10px 10px;
   background: #fff;
-  box-shadow: 1px 1px 1px #282c37;
+  box-shadow: 0px 5px 12px 5px rgb(0 0 0 / 28%);
 }
 
 .projects .container .info {

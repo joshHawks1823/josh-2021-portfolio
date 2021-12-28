@@ -190,8 +190,7 @@ header .navbar ul li a:hover {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 1rem 3rem 0;
-  margin-top: 1.5rem;
+  padding: 1rem 1rem;
 }
 
 .projects .container .pic {
